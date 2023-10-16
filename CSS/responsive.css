@@ -1,0 +1,149 @@
+@media screen and (max-width:1000px) {
+  .nav {
+    height: 100%;
+  }
+  .nright {
+    width: 100%;
+    justify-content: end;
+    padding: 10px 0;
+  }
+  .nright form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fip {
+    font-size: 10px;
+    width: 50%;
+  }
+  .btn{
+    font-size: 15px;
+    padding: 0 5px;
+  }
+  .nleft {
+    display: flex;
+    align-items: center;
+  }
+
+  .nleft ul li {
+    font-size: 18px;
+    padding-bottom: 0px;
+  }
+  .nleft ul {
+    text-align: center;
+  }
+  .logo {
+    font-size: 20px;
+  }
+
+  /*  CONTENT */
+
+  .c-right{
+    display: none;
+  }
+
+  /* Article */
+
+  .article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   /*Media  */
+   .media{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .fa-custom{
+    padding: 2px;
+   }
+.art-img img {
+  width: 20vw;
+}
+
+  /* Footer */
+
+  .footer{
+    /* position: relative; */
+  }
+  .c-footer{
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .nav {
+    flex-direction: column;
+    height: 100%;
+  }
+  .nright {
+    width: 100%;
+    font-size: 25px;
+    justify-content: center;
+  }
+  .nright form{
+    display: flex;
+    justify-content: center;
+  }
+  .fip {
+    font-size: 20px;
+    width: 35%;
+  }
+  .btn{
+    font-size: 20px;
+  }
+  .nleft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .nleft ul li {
+    font-size: 25px;
+    padding: 15px;
+    padding-bottom: 0px;
+  }
+  .nleft ul {
+    text-align: center;
+  }
+  .logo {
+    padding-left: 15px;
+    font-size: 20px;
+  }
+
+
+/* Content */
+.art-img img {
+  width: 35vw;
+}
+
+  
+  .c-footer{
+    position: fixed;
+  }
+}
+
+@media screen and (max-width:380px) {
+    .nav{
+        height: 100%;
+    }
+      .fip {
+        font-size: 18px;
+        width: 35%;
+      }
+      .btn{
+        font-size: 18px;
+      }
+   
+    
+      .nleft ul li {
+        font-size: 20px;
+        padding: 15px;
+      }
+      .nleft{
+        flex-wrap: wrap;
+      }
+}
